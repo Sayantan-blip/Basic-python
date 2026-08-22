@@ -1,2 +1,3 @@
 # Basic-python
-basic python codes 
+basic python programmes
+1. simple calculator
