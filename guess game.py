@@ -1,9 +1,9 @@
 import random
 
 while True:
-    jackpot = random.randint(1, 10)
+    jackpot = random.randint(1, 100)
 
-    for counter in range(1, 20):
+    for counter in range(1, 101):
         guess = int(input("guess the number: "))
         if guess < jackpot:
             print("too low,try again")
