@@ -25,7 +25,7 @@ while True:
     print("_____Calculator With Menu_______")
     print("1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Division\n 5. Modulus\n 6. Power \n 7. Exit")
     
-    function = input("Enter your function number: ")
+    function = int(input("Enter your function number: "))
     
     if function in [1,2,3,4,5,6,]:
         a = float(input("Enter first number: "))
